@@ -1,3 +1,31 @@
-/* TODO: Style the product card container */
+/* Style the product card container */
+.card {
+  border: 1px solid #e0e0e0;
+  border-radius: 16px;
+  padding: 24px;
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  overflow: hidden;
+}
 
-/* TODO: Add special styling for out-of-stock products */
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.12);
+  border-color: #2196f3;
+}
+
+/* Add special styling for out-of-stock products */
+.outOfStockClass {
+  background-color: #ffebee !important;
+  border-color: #ffcdd2 !important;
+  opacity: 0.85;
+}
+.outOfStockClass:hover {
+  border-color: #e57373;
+}
