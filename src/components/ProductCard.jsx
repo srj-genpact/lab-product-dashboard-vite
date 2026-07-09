@@ -1,4 +1,3 @@
-import React from 'react';
 import styles from '../styles/ProductCard.module.css';
 import { Button, Typography } from '@mui/material';
 

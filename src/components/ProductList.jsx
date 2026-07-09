@@ -1,4 +1,3 @@
-import React from 'react';
 import ProductCard from './ProductCard';
 import { Grid, Typography, Box } from '@mui/material';
 
